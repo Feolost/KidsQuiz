@@ -24,6 +24,9 @@ public class MainMenu extends AppCompatActivity {
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main_menu);
         ImageView Select_1 = (ImageView) findViewById(R.id.Select_1);
+        ImageView Select_2 = (ImageView) findViewById(R.id.Select_2);
+        ImageView Select_3 = (ImageView) findViewById(R.id.Select_3);
+        ImageView Select_4 = (ImageView) findViewById(R.id.Select_4);
 
         Select_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +41,47 @@ public class MainMenu extends AppCompatActivity {
                 }
             }
         });
+
+        Select_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(MainMenu.this, Coming_Soon.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivity(intent);
+                }catch (Exception e) {
+
+                }
+            }
+        });
+
+        Select_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(MainMenu.this, Coming_Soon.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivity(intent);
+                }catch (Exception e) {
+
+                }
+            }
+        });
+
+        Select_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(MainMenu.this, Coming_Soon.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivity(intent);
+                }catch (Exception e) {
+
+                }
+            }
+        });
     }
+
     @Override
     public void onBackPressed() {
 

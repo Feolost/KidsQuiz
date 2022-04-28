@@ -4,14 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
-    //SplashScreen
-    Handler h = new Handler();
+public class Coming_Soon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,19 +15,17 @@ public class MainActivity extends AppCompatActivity {
         //Запуск на полный экран
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
         //
-
-        h.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent i = new Intent(MainActivity.this, MainMenu.class);
-                startActivity(i);
-                finish();
-            }
-        },2000);
-
-
+        setContentView(R.layout.activity_coming_soon);
     }
+    @Override
+    public void onBackPressed() {
+        try {
+            Intent intent = new Intent(Coming_Soon.this, MainMenu.class);
+            startActivity(intent);
+            finish();
+        }catch (Exception e) {
 
+        }
+    }
 }
