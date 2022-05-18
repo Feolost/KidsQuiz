@@ -24,7 +24,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/montserrat_alternates_medium"
         android:includeFontPadding="false"
-        android:text="Молодец ты прошел\nвсе уровни по окружающему миру"
+        android:text="Молодец, ты прошел\nвсе уровни по окружающему миру"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
