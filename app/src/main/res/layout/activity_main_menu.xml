@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Select_2"
         app:shapeAppearanceOverlay="@style/roundimageview"
-        app:srcCompat="@drawable/dishes"
+        app:srcCompat="@drawable/about_us"
         tools:ignore="ImageContrastCheck" />
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -130,7 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/montserrat_alternates_medium"
-        android:text="Блюды"
+        android:text="Создатель"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/Select_4"
         app:layout_constraintStart_toStartOf="@+id/Select_4"

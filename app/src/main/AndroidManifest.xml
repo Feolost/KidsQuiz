@@ -11,6 +11,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ВикторинаДляДетей">
         <activity
+            android:name=".About_me"
+            android:exported="false" />
+        <activity
+            android:name=".okr_5"
+            android:exported="false" />
+        <activity
+            android:name=".okr_4"
+            android:exported="false" />
+        <activity
+            android:name=".congratulation"
+            android:exported="false" />
+        <activity
+            android:name=".okr_3"
+            android:exported="false" />
+        <activity
+            android:name=".okr2"
+            android:exported="false" />
+        <activity
+            android:name=".okr_1"
+            android:exported="false" />
+        <activity
             android:name=".Coming_Soon"
             android:exported="false" />
         <activity
