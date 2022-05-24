@@ -119,7 +119,7 @@ public class Level_Selecting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting.this, okr_6.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -132,7 +132,7 @@ public class Level_Selecting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting.this, okr_7.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -145,7 +145,7 @@ public class Level_Selecting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting.this, okr_8.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -158,7 +158,7 @@ public class Level_Selecting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting.this, okr_9.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -171,7 +171,7 @@ public class Level_Selecting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting.this, okr_10.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {

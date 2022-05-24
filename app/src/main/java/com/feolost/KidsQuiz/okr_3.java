@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.PorterDuff;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -31,6 +32,9 @@ public class okr_3 extends AppCompatActivity {
         ImageView question_3 = (ImageView) findViewById(R.id.question_3);
         ImageView question_4 = (ImageView) findViewById(R.id.question_4);
 
+        final MediaPlayer correct = MediaPlayer.create(this,R.raw.correct);
+        final MediaPlayer wrong = MediaPlayer.create(this,R.raw.wrong);
+
         question_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +42,7 @@ public class okr_3 extends AppCompatActivity {
                     Intent intent = new Intent(okr_3.this, okr_4.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
+                    correct.start();
                     finish();
                 }catch (Exception e) {
 
@@ -67,7 +72,7 @@ public class okr_3 extends AppCompatActivity {
                         break;
                     }
                 }
-
+                wrong.start();
                 return true;
             }
         });
@@ -94,8 +99,7 @@ public class okr_3 extends AppCompatActivity {
                         break;
                     }
                 }
-
-
+                wrong.start();
                 return true;
             }
         });
@@ -122,7 +126,7 @@ public class okr_3 extends AppCompatActivity {
                         break;
                     }
                 }
-
+                wrong.start();
                 return true;
             }
         });
@@ -150,7 +154,6 @@ public class okr_3 extends AppCompatActivity {
                     }
 
                 }
-
                 return false;
             }
         });

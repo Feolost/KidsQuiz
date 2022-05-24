@@ -14,17 +14,16 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class okr2 extends AppCompatActivity {
+public class okr_6 extends AppCompatActivity {
     private long backPressedTime;
     private Toast backToast;
     @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Запуск на полный экран
+        setContentView(R.layout.activity_okr6);
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_okr2);
 
         ImageView question_1 = (ImageView) findViewById(R.id.question_1);
         ImageView question_2 = (ImageView) findViewById(R.id.question_2);
@@ -34,17 +33,15 @@ public class okr2 extends AppCompatActivity {
         final MediaPlayer correct = MediaPlayer.create(this,R.raw.correct);
         final MediaPlayer wrong = MediaPlayer.create(this,R.raw.wrong);
 
-        question_3.setOnClickListener(new View.OnClickListener() {
+        question_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(okr2.this, okr_3.class);
+                    Intent intent = new Intent(okr_6.this, okr_7.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
-                    correct.start();
                     finish();
                 }catch (Exception e) {
-
                 }
             }
         });
@@ -126,7 +123,8 @@ public class okr2 extends AppCompatActivity {
                         break;
                     }
                 }
-                return false;
+                wrong.start();
+                return true;
             }
         });
 
@@ -153,12 +151,10 @@ public class okr2 extends AppCompatActivity {
                     }
 
                 }
-                wrong.start();
-                return true;
+                correct.start();
+                return false;
             }
-
         });
-
     }
     @Override
     public void onBackPressed() {
@@ -173,4 +169,5 @@ public class okr2 extends AppCompatActivity {
         }
         backPressedTime = System.currentTimeMillis();
     }
+
 }

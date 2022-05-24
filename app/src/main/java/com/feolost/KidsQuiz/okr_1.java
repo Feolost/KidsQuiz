@@ -11,14 +11,18 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.google.android.material.imageview.ShapeableImageView;
 
 
 public class okr_1 extends AppCompatActivity {
 
     private long backPressedTime;
     private Toast backToast;
+    private ShapeableImageView correct;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -34,6 +38,9 @@ public class okr_1 extends AppCompatActivity {
         ImageView question_3 = (ImageView) findViewById(R.id.question_3);
         ImageView question_4 = (ImageView) findViewById(R.id.question_4);
 
+        final MediaPlayer correct = MediaPlayer.create(this,R.raw.correct);
+        final MediaPlayer wrong = MediaPlayer.create(this,R.raw.wrong);
+        
 
         question_2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +50,7 @@ public class okr_1 extends AppCompatActivity {
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                     finish();
+                    correct.start();
                 }catch (Exception e) {
 
                 }
@@ -75,39 +83,13 @@ public class okr_1 extends AppCompatActivity {
                         break;
                     }
                 }
-
+                wrong.start();
                 return true;
             }
 
         });
 
-        question_2.setOnTouchListener(new View.OnTouchListener() {
 
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN: {
-                        ImageView view = (ImageView) v;
-                        //overlay is black with transparency of 0x77 (119)
-                        view.getDrawable().setColorFilter(0x77000000, PorterDuff.Mode.SRC_ATOP);
-                        view.invalidate();
-                        break;
-                    }
-                    case MotionEvent.ACTION_UP:
-                    case MotionEvent.ACTION_CANCEL: {
-                        ImageView view = (ImageView) v;
-                        //clear the overlay
-                        view.getDrawable().clearColorFilter();
-                        view.invalidate();
-                        break;
-                    }
-                }
-
-
-                return false;
-            }
-        });
 
         question_3.setOnTouchListener(new View.OnTouchListener() {
 
@@ -131,7 +113,7 @@ public class okr_1 extends AppCompatActivity {
                         break;
                     }
                 }
-
+                wrong.start();
                 return true;
             }
         });
@@ -159,9 +141,10 @@ public class okr_1 extends AppCompatActivity {
                     }
 
                 }
-
+                wrong.start();
                 return true;
             }
+
         });
 
 
