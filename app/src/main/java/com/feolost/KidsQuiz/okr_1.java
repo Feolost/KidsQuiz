@@ -40,7 +40,6 @@ public class okr_1 extends AppCompatActivity {
 
         final MediaPlayer correct = MediaPlayer.create(this,R.raw.correct);
         final MediaPlayer wrong = MediaPlayer.create(this,R.raw.wrong);
-        
 
         question_2.setOnClickListener(new View.OnClickListener() {
             @Override

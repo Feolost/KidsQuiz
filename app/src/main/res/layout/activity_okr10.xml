@@ -89,7 +89,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question_1"
         app:shapeAppearanceOverlay="@style/roundimageview"
-        app:srcCompat="@drawable/malina"
+        app:srcCompat="@drawable/goji"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
@@ -99,7 +99,7 @@
         android:layout_marginTop="5dp"
         android:fontFamily="@font/montserrat_alternates_medium"
         android:includeFontPadding="false"
-        android:text="Малина"
+        android:text="Годжи"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/question_3"
         app:layout_constraintStart_toStartOf="@+id/question_3"

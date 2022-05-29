@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ВикторинаДляДетей">
         <activity
+            android:name=".Level_Selecting2"
+            android:exported="false" />
+        <activity
             android:name=".okr_10"
             android:exported="false" />
         <activity
