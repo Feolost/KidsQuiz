@@ -14,7 +14,7 @@
         android:layout_marginTop="60dp"
         android:fontFamily="@font/montserrat_alternates_bold"
         android:gravity="center"
-        android:text="Выберите уровень"
+        android:text="Выберите уровень\nпо окружающему миру"
         android:textColor="@color/appColorText"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

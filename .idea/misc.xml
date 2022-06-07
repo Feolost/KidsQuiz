@@ -20,12 +20,25 @@
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_about_me.xml" value="0.27890625" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_coming_soon.xml" value="0.27890625" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_congratulation.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_congratulation1.xml" value="0.20859375" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_congratulation2.xml" value="0.20859375" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_level_selecting.xml" value="0.25" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_level_selecting2.xml" value="0.20859375" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_level_selecting3.xml" value="0.27890625" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_main2.xml" value="0.24444444444444444" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_main_menu.xml" value="0.25" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_main_menu2.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math1.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math10.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math2.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math3.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math4.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math5.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math6.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math7.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math8.xml" value="0.25" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_math9.xml" value="0.27890625" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_okr1.xml" value="0.27890625" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_okr10.xml" value="0.20859375" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_okr2.xml" value="0.27890625" />
@@ -36,6 +49,12 @@
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_okr7.xml" value="0.20859375" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_okr8.xml" value="0.20859375" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_okr9.xml" value="0.20859375" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_rus1.xml" value="0.25" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_rus2.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_rus3.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_rus4.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_rus5.xml" value="0.27890625" />
+        <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_rus6.xml" value="0.27890625" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/activity_splash_screen.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/layout/quiz_menu.xml" value="0.25" />
         <entry key="..\:/Users/Fedorov/AndroidStudioProjects/KidsQuiz/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14" />

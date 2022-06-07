@@ -165,10 +165,10 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(MainMenu.this, Coming_Soon.class);
+                    Intent intent = new Intent(MainMenu.this, Level_Selecting2.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
-
+                    finish();
                 }catch (Exception e) {
 
                 }
@@ -179,7 +179,7 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(MainMenu.this, Coming_Soon.class);
+                    Intent intent = new Intent(MainMenu.this, Level_Selecting3.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
 

@@ -15,5 +15,7 @@ public class congratulation extends AppCompatActivity {
         //Запуск на полный экран
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
     }
+
 }

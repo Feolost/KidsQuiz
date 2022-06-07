@@ -37,9 +37,21 @@ public class okr_1 extends AppCompatActivity {
         ImageView question_2 = (ImageView) findViewById(R.id.question_2);
         ImageView question_3 = (ImageView) findViewById(R.id.question_3);
         ImageView question_4 = (ImageView) findViewById(R.id.question_4);
+        Button repeat = (Button) findViewById(R.id.repeat);
 
         final MediaPlayer correct = MediaPlayer.create(this,R.raw.correct);
         final MediaPlayer wrong = MediaPlayer.create(this,R.raw.wrong);
+        final MediaPlayer dictor = MediaPlayer.create(this,R.raw.okr1);
+
+        dictor.start();
+
+        repeat.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                dictor.start();
+                return false;
+            }
+        });
 
         question_2.setOnClickListener(new View.OnClickListener() {
             @Override

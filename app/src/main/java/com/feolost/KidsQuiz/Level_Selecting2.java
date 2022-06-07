@@ -14,11 +14,10 @@ public class Level_Selecting2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level_selecting2);
-
+        //Запуск на полный экран
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_level_selecting);
+        setContentView(R.layout.activity_level_selecting2);
 
         TextView quiz_1 = (TextView) findViewById(R.id.quiz_1);
         TextView quiz_2 = (TextView) findViewById(R.id.quiz_2);
@@ -55,7 +54,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, okr_1.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_1.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -68,7 +67,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_2.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -81,7 +80,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_3.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -94,7 +93,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_4.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -107,7 +106,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_5.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -120,7 +119,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_6.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -133,7 +132,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_7.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -146,7 +145,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_8.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -159,7 +158,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_9.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
@@ -172,7 +171,7 @@ public class Level_Selecting2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level_Selecting2.this, Coming_Soon.class);
+                    Intent intent = new Intent(Level_Selecting2.this, math_10.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                 }catch (Exception e) {
