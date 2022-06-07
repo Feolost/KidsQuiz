@@ -182,7 +182,7 @@ public class MainMenu extends AppCompatActivity {
                     Intent intent = new Intent(MainMenu.this, Level_Selecting3.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
-
+                    finish();
                 }catch (Exception e) {
 
                 }

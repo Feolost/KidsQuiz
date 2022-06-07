@@ -50,7 +50,7 @@ public class math_7 extends AppCompatActivity {
             }
         });
 
-        question_2.setOnClickListener(new View.OnClickListener() {
+        question_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
@@ -69,7 +69,7 @@ public class math_7 extends AppCompatActivity {
 
 
         //set the ontouch listener
-        question_1.setOnTouchListener(new View.OnTouchListener() {
+        question_2.setOnTouchListener(new View.OnTouchListener() {
 
             @Override
             public boolean onTouch(View v, MotionEvent event) {
